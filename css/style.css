@@ -90,3 +90,33 @@ body {
 #addTask:focus {
     border: 1px solid #000;
 }
+
+/* List of tasks */
+#taskList {
+    width: 100%;
+    max-height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    overflow-y: scroll;
+    scrollbar-width: none; /* Remove scrollbar */
+}
+
+/* Stack items */
+#taskList li {
+    background-color: #ffffff4d;
+    
+    padding: 10px 20px;
+    
+    border-radius: 8px;
+    
+    list-style: none;
+   
+    /* Center items and set space between them */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
