@@ -9,14 +9,17 @@ A modern, stylish to-do list web application built using **HTML**, **CSS**, **Ja
 - Delete tasks easily
 - Smooth animations using jQuery
 - Clean glassmorphism-inspired interface
-- Responsive design for mobile and desktop
 
 ## 🗂️ Project Structure
 to-doList/
 │-- css/
+
 │ └── style.css # Styles for the app
+
 │-- js/
+
 │ └── main.js # All task logic (written in jQuery)
+
 └── index.html # Main HTML structure
 
 ## 💻 Technologies Used
@@ -53,5 +56,7 @@ Once the page is open in your browser:
 
 ## 👨‍💻 Author
 Hugo Antonio Castillo Vargas
+
 Student of Computer Engineering
+
 UNED - Universidad Estatal a Distancia
