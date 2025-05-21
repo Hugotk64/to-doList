@@ -12,6 +12,7 @@ A modern, stylish to-do list web application built using **HTML**, **CSS**, **Ja
 
 ## 🗂️ Project Structure
 to-doList/
+
 │-- css/
 
 │ └── style.css # Styles for the app
