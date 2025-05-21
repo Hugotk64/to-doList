@@ -51,3 +51,23 @@ body {
 .container h2:hover {
     letter-spacing: 2px;
 }
+
+/* Input box styling */
+#taskInput {
+    width: 100%;
+    padding: 10px;
+
+    font-size: 16px;
+    
+    /* Transparent border to avoid problems when focus*/
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    /* Remove outline when focus */
+    outline: none;
+}
+
+#taskInput:focus {
+    border: 1px solid #000;
+}
+
