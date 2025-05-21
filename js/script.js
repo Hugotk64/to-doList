@@ -34,3 +34,12 @@ $('#taskInput').on('keypress', function (e) {
         addTask();
     }
 });
+
+// Toggle icons to mark task as done or undone again
+$('#taskList').on('click', '.checkIcon', function () {
+    const li = $(this).closest('li'); // Get closest
+    const isDone = li.hasClass('done'); // Check if already has .done class
+    li.toggleClass('done');
+    $(this).text(isDone ? '✔️' : '❌') // Switch icon
+});
+
