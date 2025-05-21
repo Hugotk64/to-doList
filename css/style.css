@@ -1,0 +1,21 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style body*/
+body {
+    /* Cover full body */
+    height: 100vh;
+    width: 100vw;
+
+    /* Center the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(135deg, #f456ab 0%, #f4ee56 50%, #56f49f 100%);
+}
+
