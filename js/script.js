@@ -43,3 +43,9 @@ $('#taskList').on('click', '.checkIcon', function () {
     $(this).text(isDone ? '✔️' : '❌') // Switch icon
 });
 
+// Delete task when click trah icon
+$('#taskList').on('click', '.deleteIcon', function () {
+    $(this).closest('li').fadeOut(300, function () { // Animate fade out
+        $(this).remove(); // Remove element
+    });
+});
