@@ -13,3 +13,15 @@ function createTaskElement(taskText) {
 
     return li;
 }
+
+// Add the task in the ul
+function addTask() {
+    const taskText = $('#taskInput').val().trim(); // Get and remove spaces from input
+    // Handle empty input
+    if (taskText !== '') {
+        const taskElement = createTaskElement(taskText); // Create new task element
+        $('#taskList').append(taskElement); // add to ul
+        $('#taskInput').val(''); // Clear text input
+    }
+}
+
