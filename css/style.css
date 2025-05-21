@@ -120,3 +120,16 @@ body {
     align-items: center;
 }
 
+/* Task inside text */
+.taskText {
+    font-size: 20px;
+}
+
+/* Task text when done */
+.done .taskText {
+    font-size: 20px;
+
+    /* Draw a line through the text */
+    text-decoration: line-through;
+    opacity: 0.4; /* Makes text semitransparent */
+}
