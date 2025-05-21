@@ -25,3 +25,12 @@ function addTask() {
     }
 }
 
+// Add event handlers 
+$('#addTask').on('click', addTask); // When click on add btn
+
+// When press enter
+$('#taskInput').on('keypress', function (e) {
+    if (e.which === 13) { // Press enter
+        addTask();
+    }
+});
