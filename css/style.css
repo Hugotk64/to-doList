@@ -43,7 +43,7 @@ body {
 
 /* Title style */
 .container h2 {
-    color: #FFFBDE;
+    color: #5E686D;
     font-size: 25px;
     transition: letter-spacing 1s ease-out;
 }
@@ -71,3 +71,22 @@ body {
     border: 1px solid #000;
 }
 
+/* Button to add task */
+#addTask {
+    width: 20%;
+    padding: 10px;
+
+    background-color: #096B68;
+    color: #FFFBDE;
+    font-weight: bold;
+
+    border: 1px solid transparent;
+    border-radius: 8px;
+    
+    cursor: pointer;
+}
+
+/* Button focus border */
+#addTask:focus {
+    border: 1px solid #000;
+}
