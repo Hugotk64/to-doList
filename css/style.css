@@ -133,3 +133,22 @@ body {
     text-decoration: line-through;
     opacity: 0.4; /* Makes text semitransparent */
 }
+
+/* Icon wrapper layout */
+.iconWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+/* Icon styling */
+.icon {
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    color: #f456ab;
+}
+
+/* Icon hover style */
+.icon:hover {
+  transform: scale(1.2);
+  color: #f4ee56;
+}
