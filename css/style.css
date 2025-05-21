@@ -101,7 +101,7 @@ body {
     gap: 10px;
     
     overflow-y: scroll;
-    scrollbar-width: none; /* Remove scrollbar */
+    scrollbar-width: thin; /* makes scrollbar thin */
 }
 
 /* Stack items */
