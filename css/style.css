@@ -25,13 +25,15 @@ body {
     max-width: 400px;
     padding: 30px;
 
-    
+    /* Makes container looks glass */
     background: #ffffff1a;
     backdrop-filter: blur(10px);
     border-radius: 20px;
     
+    /* Add shadow to give some deept */
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     
+    /* C enter the content and gap it */
     display: flex;
     flex-direction: column;
     align-items: center;
